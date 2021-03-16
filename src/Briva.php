@@ -1,4 +1,10 @@
 <?php
+// created by Aditya Nanda Utama, S.Kom at 20210316 11:44.
+// 
+// have any project? you can contact me at https://aditnanda.com
+// instagram : @adit.nanda
+// PLEASE DO NOT DELETE THIS COPYRIGHT IF YOU ARE A HUMAN.
+
 namespace AditNanda\UnofficialBriva;
 
 class Briva{
