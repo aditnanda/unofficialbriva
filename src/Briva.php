@@ -14,11 +14,11 @@ class Briva{
     public $base_url = ''; 
     public function __construct()
     {
-        $this->cons_key = env('BRIVA_CONSUMER_KEY','NAND');    
-        $this->cons_sec = env('BRIVA_CONSUMER_SECRET','NAND');    
-        $this->institution_code = env('BRIVA_INSTITUTION_CODE','NAND');    
-        $this->briva_no = env('BRIVA_NO','NAND');    
-        $BRIVA_PRODUCTION = env('BRIVA_PRODUCTION','NAND'); 
+        $this->cons_key = env('BRIVA_CONSUMER_KEY','');    
+        $this->cons_sec = env('BRIVA_CONSUMER_SECRET','');    
+        $this->institution_code = env('BRIVA_INSTITUTION_CODE','');    
+        $this->briva_no = env('BRIVA_NO','');    
+        $BRIVA_PRODUCTION = env('BRIVA_PRODUCTION',''); 
         if (!$BRIVA_PRODUCTION) {
             $this->base_url = 'https://sandbox.partner.api.bri.co.id/';
         }   else{
